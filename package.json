@@ -1,0 +1,35 @@
+{
+  "name": "twitter-clone-node",
+  "version": "1.0.0",
+  "description": "Twitter clone using node.js,express,mongodb,pug template engine,socket.io",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Hansh kumar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body": "^5.1.0",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "express-toastr": "^2.0.2",
+    "mongoose": "^5.11.10",
+    "mongoose-query-logger": "^0.2.3",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.6",
+    "parser": "^0.1.4",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "pug": "^3.0.0",
+    "socket.io": "^3.0.5",
+    "sweetalert2": "^10.12.7",
+    "toastr": "^2.1.4"
+  }
+}
